@@ -13,34 +13,7 @@ public interface IRadio {
      */
     public boolean isOn();
 
-    /***
-     * Este
-INVESTIGACIÓN DE OPERACIONES - SECCIÓN - 20 - 2023 - 1
-INVESTIGACIÓN DE OPERACIONES - SECCIÓN - 20 - 2023 - 1
-Módulos del curso
-BIENVENIDA AL CURSO
-BIENVENIDA AL CURSO
 
-    Página
-    Bienvenida
-    Página
-    Información docente
-    Página
-    Información general del curso
-
-MÓDULO DE INTRODUCCIÓN
-MÓDULO DE INTRODUCCIÓN
-
-    Página
-    Introducción al curso
-    Archivo adjunto
-    C1-Introducción.pptx
-    Tarea
-    Firma del programa del curso
-    12 de ene
-    0 ptsmetodo nos ayuda a establecer la frecuencia, recibe un parametro llamado freq que puede "AM" o "FM"
-     * @param freq La frecuencia la cual puede ser AM o FM, de lo contrario error.
-     */
     public void setFrequence(String freq) throws Exception;
 
     public String getFrequence();
