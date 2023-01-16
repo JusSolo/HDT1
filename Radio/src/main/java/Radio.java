@@ -2,25 +2,37 @@ public class Radio implements IRadio  {
     private boolean on;
     private double frecuenciaFM;
     private int frecuenciaAM
-    private double pasoAM;
+    private int pasoAM;
     private double pasoFM;
     private double[] listaFM;
     private int[] listaAM;
 
     private boolean AM; //
 
-    public void on();
+    public void on() {on==true}
 
-    public void off();
+    public void off() {off==false}
 
     /***
      * Este metodo nos indica si la radio esta encendida o apagada
      * @return true si la radio esta encendida y false cuando la radio este apagada
      */
-    public boolean isOn();
+    public boolean isOn() {
+    	System.in.println("La radio está encendida");
+    }
 
 
-    public void setFrequence(String freq) throws Exception;
+    public void setFrequence(String freq) throws Exception{
+    	freq.toUpperCase();
+    	if (freqstartsWith("AM")){
+    		try {
+    			int am = Integer.parseInt(freq.substring(2));
+    			
+    	
+    		} catch
+    	}
+    	String frecuencia = 
+    }
 
     public String getFrequence();
 
