@@ -1,10 +1,12 @@
 public class Radio implements IRadio  {
     private boolean on;
-    private double frecuencia;
+    private double frecuenciaFM;
+    private int frecuenciaAM
     private double pasoAM;
-    private  double pasoFM;
+    private double pasoFM;
     private double[] listaFM;
-    private double[] listaAM;
+    private int[] listaAM;
+
     private boolean AM; //
 
     public void on();
@@ -34,12 +36,20 @@ public class Radio implements IRadio  {
 
     public void setAMActualStation(int actualStation);
 
-    public void saveFMStation(double actualStation, int slot);
+    public void saveFMStation(double actualStation, int slot){
+        this.listaFM[slot-1] = actualStation;
+    }
 
-    public void saveAMStation(int actualStation, int slot);
+    public void saveAMStation(int actualStation, int slot){
+        this.listaAM[slot-1] = actualStation;
+    }
 
-    public double getFMSlot(int slot);
+    public double getFMSlot(int slot){
+        return listaFM[slot-1];
+    }
 
-    public int getAMSlot(int slot);
+    public int getAMSlot(int slot){
+        return listaAM[slot-1;
+    }
 
 }
