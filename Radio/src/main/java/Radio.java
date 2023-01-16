@@ -5,6 +5,41 @@ public class Radio implements IRadio  {
     private  double pasoFM;
     private double[] listaFM;
     private double[] listaAM;
+    private boolean AM; //
 
-    
+    public void on();
+
+    public void off();
+
+    /***
+     * Este metodo nos indica si la radio esta encendida o apagada
+     * @return true si la radio esta encendida y false cuando la radio este apagada
+     */
+    public boolean isOn();
+
+
+    public void setFrequence(String freq) throws Exception;
+
+    public String getFrequence();
+
+    public void Forward();
+
+    public void Backward();
+
+    public double getFMActualStation();
+
+    public int getAMActualStation();
+
+    public void setFMActualStation(double actualStation);
+
+    public void setAMActualStation(int actualStation);
+
+    public void saveFMStation(double actualStation, int slot);
+
+    public void saveAMStation(int actualStation, int slot);
+
+    public double getFMSlot(int slot);
+
+    public int getAMSlot(int slot);
+
 }

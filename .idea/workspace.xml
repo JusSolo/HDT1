@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a776a445-1f89-4f5e-8ddf-6e7b666260ef" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Radio/src/main/java/Radio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Radio/src/main/java/IRadio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Radio/src/main/java/IRadio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Radio/src/main/java/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Radio/src/main/java/Radio.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +31,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/home/juan/Documentos/education/U/Semestres/semestre_7/algoritmos/HDT/HDT1"
+    "last_opened_file_path": "/home/juan/Documentos/education/U/Semestres/semestre_7/algoritmos/git-ejemplos/uvg2023ed40/02_ADT_Ejemplos"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
